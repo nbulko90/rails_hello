@@ -1,15 +1,16 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-=begin
+
   	def hello
   	 render html: "Hello, world!"
   	end
-=end
- 
+
+=begin 
     def hello
 	 render html: "¡Hola, mundo!"
     end
+=end
 
 =begin
   def goodbye
